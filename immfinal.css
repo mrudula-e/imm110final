@@ -1,0 +1,174 @@
+body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+    margin: 50px;
+    background-color:white;
+  }
+
+  #mylogo{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  
+  }
+  
+  ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  }
+  li{
+    float: left;
+    overflow: hidden;
+  }
+  li a {
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  @media screen and (max-width: 400px) {
+    .li a {
+      float: none;
+      width:100%;
+    }
+  }
+  li a:hover {
+    background-color:purple;
+  }
+  
+  .active {
+    background-color: pink;
+  }
+  
+   #adBanner{
+    display:block ;
+    border-radius: 8%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  height: auto;
+  padding: 14px 180px;
+  }
+  p{
+    color:rgb(17, 2, 2);
+  }
+  
+  audio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding: .1in;
+  display: flex;
+  }
+  .list{
+    font-style: oblique;
+  }
+  h1{
+    
+    justify-content: center;
+    
+    background-color: #f9f9f6;
+    padding: 20px;
+    text-align: center;
+    color: rgb(10, 1, 18);
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 40px;
+    flex: 70%;
+  }
+  #toppic{
+    justify-content: left;
+  border-radius: 0%;
+  float: left;
+  width: 100px;
+  margin: 0; 
+  padding-right: 100;
+ float:top;
+ position: absolute;
+  top: 50px;
+  left: 96px;
+
+  }
+  #pic{
+    justify-content: left;
+  border-radius: 0%;
+  float: bottom;
+ padding-right: 0;
+ position: absolute;
+ padding-top: 10px;
+ padding-left: 40px;
+ display:flex;
+ width: 100px;
+height: auto
+  }
+  
+  #sign{
+    justify-content: right;
+    border-radius: 0%;
+    float: right;
+    width: 200px;
+    margin: 0; 
+    padding-right: 100;
+    flex-direction: column;
+   position: absolute;
+    top: 50px;
+    right: 96px;
+    display: flex;
+  }
+  #search{
+    justify-content: right;
+    border-radius: 0%;
+    float: right;
+    width: 200px;
+    margin: 0; 
+    padding-right: 100;
+   float:top;
+   position: absolute;
+    top: 250px;
+    right: 96px;
+    display: flex;
+
+  }
+  .midpic{
+    display: flex;
+    border-radius: 8%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  height: auto
+  }
+  #login{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+  height: auto
+  }
+  
+  footer {
+    float: bottom;
+    justify-content: center;
+    display: block;
+    background-color: #f9f9f6;
+    padding-left: 500px;
+    padding: 14px 180px;
+    text-align: center;
+    color: rgb(6, 1, 11);
+    font-weight: bold;
+    font-weight: 900;
+
+}
