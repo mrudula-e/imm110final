@@ -37,7 +37,19 @@ body {
     text-decoration: none;
   }
   @media screen and (max-width: 400px) {
-    .li a {
+      #search{
+         float: none;
+      width:100%;
+    } 
+      audio{
+         float: none;
+      width:100%;
+    } 
+      iframe{
+      float: none;
+      width:100%;
+    }
+    li a {
       float: none;
       width:100%;
     }
