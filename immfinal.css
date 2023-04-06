@@ -37,19 +37,7 @@ body {
     text-decoration: none;
   }
   @media screen and (max-width: 400px) {
-      h1{
-         float: none;
-      width:100%;
-    } 
-      #search{
-         float: none;
-      width:100%;
-    } 
-      audio{
-         float: none;
-      width:100%;
-    } 
-      iframe{
+    iframe{
       float: none;
       width:100%;
     }
@@ -96,7 +84,7 @@ body {
     justify-content: center;
     
     background-color: #f9f9f6;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     color: rgb(10, 1, 18);
     font-weight: bold;
@@ -175,13 +163,14 @@ height: auto
   height: auto
   }
   
+    
+  
   footer {
     float: bottom;
     justify-content: center;
     display: block;
     background-color: #f9f9f6;
-    padding-left: 500px;
-    padding: 14px 180px;
+    padding: 10px;
     text-align: center;
     color: rgb(6, 1, 11);
     font-weight: bold;
